@@ -7,6 +7,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+.log
 
 # Environment variables
 .env
@@ -38,10 +39,44 @@ coverage/
 *.tgz
 *.tar.gz
 
-# Backend
+# Backend specific
 /tmp
 /config.json
 
-# Frontend
-/.parcel-cache
-/.eslintcache
+# Additions for Node.js backend
+*.pid
+*.seed
+*.prof
+.DS_Store
+.env*.local
+.env*.local.*
+
+# Database
+*.db
+*.sqlite
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.prof
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Typescript
+*.tsbuildinfo
+
+# Next.js
+/.next/
+
+# Vercel
+.vercel
+
+# Testing
+/coverage
+
+# Logs
+logs
+*.log

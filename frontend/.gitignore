@@ -7,9 +7,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+dist-ssr/
+
+# Local environment files
 *.local
 
 # Editor directories and files
@@ -22,3 +28,17 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# React/Vite specific
+/.parcel-cache
+/.eslintcache
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+/coverage
+
+# Typescript
+*.tsbuildinfo
