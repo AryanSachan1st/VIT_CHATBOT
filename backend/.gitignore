@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.cache/
+.next/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage / Test
+coverage/
+*.lcov
+
+# Misc
+*.tgz
+*.tar.gz
+
+# Backend
+/tmp
+/config.json
+
+# Frontend
+/.parcel-cache
+/.eslintcache
